@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Card, Row, Col } from "react-bootstrap";
 
@@ -25,4 +24,4 @@ function PetList(props) {
   );
 }
 
-export default PetList;
+export default PetList; // Exporta PetList como default

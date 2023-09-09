@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import { Image } from "react-bootstrap";
 import { Form, Card, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import { PetList } from "./PetList";
-
+import PetList from "./PetList"; // Importa PetList como default
 
 function UserProfileForm(props) {
   // Recibe las propiedades del usuario y sus mascotas

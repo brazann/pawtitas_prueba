@@ -110,9 +110,11 @@ function UserProfileForm(props) {
   );
 }
 
-function PetList(props) {
+function OtherPetList(props) {
   // Recibe las propiedades de las mascotas
   const { pets } = props;
+
+
 
   return (
     <Row>
